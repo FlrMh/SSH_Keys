@@ -186,6 +186,22 @@ git commit -m "notes-on-your-changes"
 git push -u origin main
 ```
 
+---
+
+## Potential issues -> permission denied
+
+If you open another `Git Bash` terminal and try to push your changes from there while the original terminal is open, you will be denied permission, so ensure that you only attempt to push changes from the terminal where you used
+```
+eval `ssh-agent -s`
+```
+and
+```
+ssh-add github-key
+```
+- If you are unsure whether you have permissions in your current terminal, run :
+```
+ssh -T git@github.com
+```
 
 
 
