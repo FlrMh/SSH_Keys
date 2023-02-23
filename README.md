@@ -178,7 +178,7 @@ git remote --help
 git remote remove origin
 # removes origin
 
-# From here on we can clone using HTTPS and continue with normal `HTTPS` commands to push shanges
+# From here on we can clone using HTTPS and continue with normal commands to push shanges
 
 git clone <HTTPS path to your GitHub repo>
 git add .
